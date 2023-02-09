@@ -1,1 +1,37 @@
-/*# sourceMappingURL=style.css.map */
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h3, p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.main-btn {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #FBF7EC;
+  padding: 12px 24px;
+  background-color: #04251F;
+  border: 1px solid #04251F;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.alt-btn {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #FBF7EC;
+  padding: 12px 24px;
+  background-color: #DAB147;
+  border: 1px solid #DAB147;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}/*# sourceMappingURL=style.css.map */

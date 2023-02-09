@@ -1,0 +1,17 @@
+$h1-font: 'Playfair Display', serif;
+$h2-font: 'Montserrat', sans-serif;
+$h3-p-font: 'Montserrat', sans-serif;
+
+h1 {
+  font-family: $h1-font;
+}
+
+h2 {
+  font-family: $h2-font;
+  font-weight: 500;
+}
+
+h3, p {
+  font-family: $h3-p-font;
+  font-weight: 400;
+}
