@@ -59,4 +59,26 @@ footer input, footer textarea {
 
 input, textarea {
   outline: none;
+}
+
+#ratings article {
+  flex: 1 0 400px;
+  max-width: 400px;
+  background-color: white;
+}
+
+#ratings {
+  background-color: #E5EBEA;
+}
+
+.scroll-menu {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.p-ratings {
+  height: 100px;
+  width: 366px;
+  text-overflow: ellipsis;
+  overflow: auto;
 }/*# sourceMappingURL=style.css.map */
