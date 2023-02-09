@@ -1,10 +1,12 @@
 h1 {
   font-family: "Playfair Display", serif;
+  color: #316A67;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  color: #316A67;
 }
 
 h3, p {
@@ -59,4 +61,12 @@ footer input, footer textarea {
 
 input, textarea {
   outline: none;
+}
+
+#benefits {
+  background-color: #E5EBEA;
+}
+#benefits h3 {
+  color: #316A67;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

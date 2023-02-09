@@ -4,14 +4,16 @@ $h3-p-font: 'Montserrat', sans-serif;
 
 h1 {
   font-family: $h1-font;
+  color: $green;
 }
 
 h2 {
   font-family: $h2-font;
   font-weight: 500;
+  color: $green;
 }
 
 h3, p {
   font-family: $h3-p-font;
-  font-weight: 400;
+  font-weight: 400; 
 }
