@@ -63,10 +63,33 @@ input, textarea {
   outline: none;
 }
 
+
+#ratings article {
+  flex: 1 0 400px;
+  max-width: 400px;
+  background-color: white;
+}
+
+#ratings {
+  background-color: #E5EBEA;
+}
+
+.scroll-menu {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.p-ratings {
+  height: 100px;
+  width: 366px;
+  text-overflow: ellipsis;
+  overflow: auto;
+
 #benefits {
   background-color: #E5EBEA;
 }
 #benefits h3 {
   color: #316A67;
   font-weight: 400;
+
 }/*# sourceMappingURL=style.css.map */
