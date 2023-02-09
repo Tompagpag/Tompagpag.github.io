@@ -34,4 +34,29 @@ h3, p {
   border: 1px solid #DAB147;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  background-color: #316A67;
+  color: #FBF7EC;
+}
+
+footer h3 {
+  color: #DAB147;
+}
+
+footer input, footer textarea {
+  background-color: rgba(255, 255, 255, 0.35);
+  border: none;
+  border-radius: 5px;
+  color: #FBF7EC;
+  margin-bottom: 1rem;
+}
+
+#form-contact, #get-in-touch {
+  max-width: 35%;
+}
+
+input, textarea {
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
