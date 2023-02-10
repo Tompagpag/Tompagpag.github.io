@@ -9,7 +9,7 @@ const addItemToTotalPrice = () => {
   const itemPrice = document.getElementById('price');
   let price = itemPrice.innerText.match(/\d+/g);
   if (price = parseFloat(price[0]), 10) {
-    itemPrice.innerText = `$ ${price + initialPrice}`
+    itemPrice.innerText = `${price + initialPrice} €`
   }
   let value = parseInt(input.value, 10);
     value++;
@@ -24,7 +24,7 @@ const substractItemToTotalPrice = () => {
     input.value = value;
     const itemPrice = document.getElementById('price');
     let price = parseInt(itemPrice.innerText.match(/\d+/g), 10);
-    itemPrice.innerText = `$ ${price -  initialPrice}`
+    itemPrice.innerText = `${price -  initialPrice} €`
   }
 }
 
