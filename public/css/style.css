@@ -85,6 +85,7 @@ input, textarea {
   overflow: auto;
 }
 
+
 #banner {
   background-image: url("../img/Image-chair.png");
   background-size: contain;
@@ -98,10 +99,21 @@ input, textarea {
   font-family: "Montserrat", sans-serif;
 }
 
+
 #benefits {
   background-color: #E5EBEA;
 }
 #benefits h3 {
   color: #316A67;
   font-weight: 400;
+
+}
+
+.carousel .carousel-item {
+  width: 610px;
+}
+
+.input-group span {
+  cursor: pointer;
+
 }/*# sourceMappingURL=style.css.map */
