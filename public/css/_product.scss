@@ -20,10 +20,6 @@
   }
 }
 
-// #quantite {
-//   max-width: 50px;
-// }
-
 .text-wrapper {
   width: 65%;
 }
@@ -47,4 +43,14 @@
       color: $white;
     }
   }
+}
+
+#materials-description {
+  h2, h3 {
+    color: $yellow;
+  }
+}
+
+.card {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
 }

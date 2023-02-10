@@ -140,7 +140,7 @@ ul li > a[class="nav-link fw-semibold"] {
 }
 
 #technical-description article:first-child h2 {
-  color: #DAB147;
+  color: #F7B438;
 }
 
 #technical-description article:nth-child(3) .technical-txt {
@@ -156,4 +156,12 @@ ul li > a[class="nav-link fw-semibold"] {
 }
 #technical-description article:nth-child(even) .technical-txt h2 {
   color: #FBF7EC;
+}
+
+#materials-description h2, #materials-description h3 {
+  color: #F7B438;
+}
+
+.card {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
 }/*# sourceMappingURL=style.css.map */
