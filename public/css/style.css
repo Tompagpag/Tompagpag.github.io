@@ -118,4 +118,42 @@ ul li > a[class="nav-link fw-semibold"] {
 
 .input-group span {
   cursor: pointer;
+}
+
+.technical-img img {
+  width: 720px;
+}
+
+.tech-last-img {
+  flex: 1 0 720px;
+  height: 405px;
+}
+.tech-last-img img {
+  width: 70%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.text-wrapper {
+  width: 65%;
+}
+
+#technical-description article:first-child h2 {
+  color: #DAB147;
+}
+
+#technical-description article:nth-child(3) .technical-txt {
+  background-color: #E5EBEA;
+}
+
+#technical-description article:nth-child(even) {
+  flex-direction: row-reverse;
+}
+#technical-description article:nth-child(even) .technical-txt {
+  background-color: #316A67;
+  color: #FBF7EC;
+}
+#technical-description article:nth-child(even) .technical-txt h2 {
+  color: #FBF7EC;
 }/*# sourceMappingURL=style.css.map */

@@ -50,7 +50,7 @@
     </header>
   </div>
   <main class="mt-5">
-    <section id="product-description" class="container d-flex flex-column-reverse flex-md-row">
+    <section id="product-description" class="container d-flex flex-column-reverse flex-md-row mb-5">
       <div id="carouselExampleIndicators" class="carousel slide me-5" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -109,13 +109,20 @@
             <h3 id="price">995 €</h3>
           </div>
         </div>
-        <div class="input-group mt-3 w-25">
-          <span class="input-group-text">-</span>
-          <input id="quantite" type="text" value="1" class="form-control text-center"
-            aria-label="Amount (to the nearest dollar)">
-          <span class="input-group-text">+</span>
+        <div class="row align-items-center mt-3">
+          <div class="col-2">
+            <span>Quantité</span>
+          </div>
+          <div class="col-8">
+            <div class="input-group w-25">
+              <span class="input-group-text">-</span>
+              <input id="quantite" type="text" value="1" class="form-control text-center"
+                aria-label="Amount (to the nearest dollar)">
+              <span class="input-group-text">+</span>
+            </div>
+          </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
           <div class="col-3 offset-6">
             <a href="" class="alt-btn">Commander</a>
           </div>
@@ -124,6 +131,68 @@
 
     </section>
     <section id="technical-description">
+      <article class="d-flex">
+        <div class="technical-img">
+          <img src="./img/fauteuil-blanc-mesures-techniques.jpg" alt="">
+        </div>
+        <div class="technical-txt d-flex flex-column justify-content-center ps-5">
+          <h2>Aspect technique</h2>
+          <p>
+            Dimensions totales : L67.5 x P68 x H99-107 cm<br>
+            Dimensions assise : L45 x P43 x H46-54 cm<br>
+            Hauteur accoudoirs : 65.5-73.5 cm<br>
+            Revêtement : 100% polyester<br>
+            Matière : contreplaqué placage érable et aluminium<br>
+            Dimensions du colis : L70 x P64 x H55 cm<br>
+            Poids du colis : 21.9 kg<br>
+          </p>
+        </div>
+      </article>
+      <article class="d-flex">
+        <div class="technical-img">
+          <img src="./img/fauteuil-blanc-dos.jpg" alt="">
+        </div>
+        <div class="technical-txt d-flex flex-column justify-content-center  align-items-end w-100 pe-5">
+          <div class="text-wrapper">
+
+            <h2>Correction de la posture</h2>
+            <p>
+              KEOLA a une conception ergonomique qui favorise une posture correcte. En soutenant vos genoux et en maintenant vos
+              cuisses à un angle bas, il équilibre votre poids et soulage la pression sur votre colonne vertébrale pour soulager les
+              maux de dos.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="d-flex">
+        <div class="technical-img">
+          <img src="./img/fauteuil-blanc-cote.jpg" alt="">
+        </div>
+        <div class="technical-txt d-flex flex-column justify-content-center w-100 ps-5">
+          <div class="text-wrapper">
+            <h2>Suivi de vos constantes</h2>
+            <p>
+              La chaise connecté permet d’analyser votre posture mais aussi de corriger vos habitudes quand vous êtes assis, modifier
+              le confort de vos coussins en fonction des paramètres extérieurs (température de la chambre, chaleur corporelle, taux
+              d’humidité…) et vous alerter si vos signes vitaux montrent des anomalies !
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="d-flex">
+        <div class="tech-last-img">
+          <img src="./img/PAGE DATA 10.png" alt="">
+        </div>
+        <div class="technical-txt d-flex flex-column justify-content-center align-items-end w-100 pe-5">
+        <div class="text-wrapper">
+          <h2>Une interface dédiée et personnalisée</h2>
+          <p>
+            Réduisez votre stress au quotidien et prenez soin de votre dos. Chaque jour vous pouvez améliorer votre posture grâce
+            aux informations transmises par la chaise KEOLA
+          </p>
+        </div>
+        </div>
+      </article>
 
     </section>
     <section id="materials-description">
