@@ -14,26 +14,24 @@ h3, p {
   font-weight: 400;
 }
 
-.main-btn {
+.alt-btn {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #FBF7EC;
+  color: #316A67;
   padding: 12px 24px;
-  background-color: #04251F;
-  border: 1px solid #04251F;
+  border: 1px solid #316A67;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
-.alt-btn {
+.main-btn {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #04251F;
   padding: 12px 24px;
-  background-color: #DAB147;
-  border: 1px solid #DAB147;
+  background-color: #F7B438;
+  border: 1px solid #F7B438;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
@@ -44,7 +42,7 @@ footer {
 }
 
 footer h3 {
-  color: #DAB147;
+  color: #F7B438;
 }
 
 footer input, footer textarea {
