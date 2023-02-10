@@ -30,7 +30,7 @@ h3, p {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #FBF7EC;
+  color: #04251F;
   padding: 12px 24px;
   background-color: #DAB147;
   border: 1px solid #DAB147;
@@ -85,6 +85,13 @@ input, textarea {
   overflow: auto;
 }
 
+ul li > a[class="nav-link fw-bolder"] {
+  color: #04251F;
+}
+
+ul li > a[class="nav-link fw-semibold"] {
+  color: #316A67;
+}
 
 #banner {
   background-image: url("../img/Image-chair.png");
@@ -99,14 +106,12 @@ input, textarea {
   font-family: "Montserrat", sans-serif;
 }
 
-
 #benefits {
   background-color: #E5EBEA;
 }
 #benefits h3 {
   color: #316A67;
   font-weight: 400;
-
 }
 
 .carousel .carousel-item {
@@ -115,5 +120,4 @@ input, textarea {
 
 .input-group span {
   cursor: pointer;
-
 }/*# sourceMappingURL=style.css.map */

@@ -19,3 +19,9 @@
   text-overflow: ellipsis;
   overflow: auto;
 }
+ul li>a[class="nav-link fw-bolder"]{
+  color:$dark-color;
+}
+ul li>a[class="nav-link fw-semibold"]{
+  color: $green;
+}
