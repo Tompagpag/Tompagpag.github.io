@@ -63,7 +63,6 @@ input, textarea {
   outline: none;
 }
 
-
 #ratings article {
   flex: 1 0 400px;
   max-width: 400px;
@@ -84,6 +83,7 @@ input, textarea {
   width: 366px;
   text-overflow: ellipsis;
   overflow: auto;
+}
 
 #benefits {
   background-color: #E5EBEA;
@@ -91,5 +91,8 @@ input, textarea {
 #benefits h3 {
   color: #316A67;
   font-weight: 400;
+}
 
+.carousel .carousel-item {
+  width: 660px;
 }/*# sourceMappingURL=style.css.map */

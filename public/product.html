@@ -8,12 +8,13 @@
   <title>Keola</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -46,8 +47,78 @@
 
     </nav>
   </header>
-  <main>
-    <section id="product-description">
+  <main class="mt-5">
+    <section id="product-description" class="container d-flex flex-column-reverse flex-md-row">
+      <div id="carouselExampleIndicators" class="carousel slide me-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Image 2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Image 2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Image 2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="pricing">
+        <h1 class="mb-3">Chaise de bureau<br>KEOLA</h1>
+        <p>
+          Confort et design sont enfin réunis dans l'espace de travail avec le fauteuil de bureau KEOLA ! <br>
+          Une structure finition bois clair, une assise contrastante en tissu gris, des lignes tout en courbes... ce fauteuil de
+          bureau possède toutes les qualités d'une assise tendance. On apprécie particulièrement ses accoudoirs recourbés et son
+          dossier rembourré qui donnent à l'ensemble un style unique.Le fauteuil de bureau KEOLA c'est aussi une forme englobante
+          pensée pour notre confort.
+        </p>
+        <div class="row mt-3">
+          <div class="col-4">
+            <img src="images/star-rate.png" alt="">
+            <img src="images/star-rate.png" alt="">
+            <img src="images/star-rate.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 offset-4">
+            <p>Livraison gratuite</p>
+          </div>
+          <div class="col-4 offset-1">
+            <p>Expédié sous 48h/72h</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-4">
+            <h3 id="price">$ 995</h3>
+          </div>
+        </div>
+        <div class="input-group mt-3 w-25">
+          <span class="input-group-text">-</span>
+          <input id="quantite" type="text" value="1" class="form-control text-center"
+            aria-label="Amount (to the nearest dollar)">
+          <span class="input-group-text">+</span>
+        </div>
+        <div class="row">
+          <div class="col-3 offset-6">
+            <a href="" class="alt-btn">Commander</a>
+          </div>
+        </div>
+      </div>
 
     </section>
     <section id="technical-description">
@@ -62,21 +133,22 @@
 
       <section id="form-contact" class="me-5">
         <form action="" class="d-flex flex-column">
-          <input class="p-3" type="text" name="email" placeholder="hello@gmail.com" id="">
+          <input class="p-3" type="text" name="nom-prenom" placeholder="Nom Prénom" id="">
+          <input class="p-3" type="text" name="email" placeholder="Email" id="">
           <textarea class="p-3" name="Message" placeholder="Message" rows="5" cols="33" id=""></textarea>
         </form>
-        <button class="alt-btn">Send</button>
+        <button class="alt-btn">Envoyer</button>
       </section>
 
-      <section id="get-in-touch" class="contact d-flex flex-column">
-        <h3>Get in Touch</h3>
-        <p>But Brooke Chaffin and Catherine Connors are looking to change that with the introduction.</p>
-        <p>1995 Matthews Street</p>
-        <p>Bloomington, IL</p>
+      <section id="get-in-touch" class="contact d-flex flex-column justify-content-center">
+        <h3>Contactez nous</h3>
+        <p>KEOLA est la première entreprise française de fauteuils connectés.</p>
+        <p>15 rue Chaudron</p>
+        <p>75010 PARIS</p>
         <div class="media-icons d-flex">
+          <i class="bi bi-instagram pe-3"></i>
+          <i class="bi bi-twitter pe-3"></i>
           <i class="bi bi-facebook"></i>
-          <i class="bi bi-twitter"></i>
-          <i class="bi bi-instagram"></i>
         </div>
       </section>
 
@@ -85,6 +157,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
   </script>
+  <script src="../src/quantity.js"></script>
 </body>
 
 </html>
