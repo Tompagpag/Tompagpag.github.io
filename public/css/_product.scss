@@ -5,3 +5,46 @@
 .input-group span {
   cursor: pointer;
 }
+
+.technical-img img {
+  width: 720px;
+}
+
+.tech-last-img {
+  flex: 1 0 720px;
+  height: 405px;
+  img {
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+// #quantite {
+//   max-width: 50px;
+// }
+
+.text-wrapper {
+  width: 65%;
+}
+
+#technical-description article:first-child h2 {
+  color: $yellow;
+}
+
+#technical-description article:nth-child(3) {
+  .technical-txt {
+    background-color: $light-green;
+  }
+}
+
+#technical-description article:nth-child(even) {
+  flex-direction: row-reverse;
+  .technical-txt {
+    background-color: $green;
+    color: $white;
+    h2 {
+      color: $white;
+    }
+  }
+}
