@@ -1,22 +1,20 @@
 
 
-.main-btn {
-  text-decoration: none;
-  font-family: $h2-font;
-  font-weight: 500;
-  color: $white;
-  padding: 12px 24px;
-  background-color: $dark-color;
-  border: 1px solid $dark-color;
-  border-radius: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-}
-
 .alt-btn {
   text-decoration: none;
   font-family: $h2-font;
   font-weight: 500;
-  color: $white;
+  color: $green;
+  padding: 12px 24px;
+  border: 1px solid $green;
+  border-radius: 5px;
+}
+
+.main-btn {
+  text-decoration: none;
+  font-family: $h2-font;
+  font-weight: 500;
+  color: $dark-color;
   padding: 12px 24px;
   background-color: $yellow;
   border: 1px solid $yellow;
