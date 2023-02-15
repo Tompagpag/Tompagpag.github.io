@@ -164,4 +164,8 @@ ul li > a[class="nav-link fw-semibold"] {
 
 .card {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+#posture h3, #posture a {
+  color: #316A67;
 }/*# sourceMappingURL=style.css.map */

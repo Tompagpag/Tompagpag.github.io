@@ -56,8 +56,43 @@
     <section id="resume">
 
     </section>
-    <section id="posture">
-
+    <section class="container" id="posture">
+      <h2 class="text-center mb-5">Qualité de ma posture</h2>
+      <p class="text-center mb-5">
+        ici, vous constaterez vos différents résultat retranscrit par KEOLA.<br>
+        *100% représente une bonne posture adoptée
+      </p>
+      <div class="row">
+        <div class="col-2 d-flex flex-column justify-content-around">
+          <div class="d-flex align-items-end">
+            <img src="img/Group 7 1.svg" alt="Cervicales" width="50px" height="50px">
+            <h3 class="ps-3">Cervicale</h3>
+          </div>
+          <div class="d-flex align-items-end">
+            <img src="img/dorsales 1.svg" alt="Dorsales" width="50px" height="50px">
+            <h3 class="ps-3">Dorsale</h3>
+          </div>
+          <div class="d-flex align-items-end">
+            <img src="img/lombaires 1.svg" alt="Lombaires" width="50px" height="50px">
+            <h3 class="ps-3">Lombaire</h3>
+          </div>
+        </div>
+        <div class="col-8">
+          <canvas id="chart-cervicale"></canvas>
+        </div>
+        <div class="col-2 d-flex flex-column justify-content-around">
+          <a href="">
+            Consulter ma moyenne
+          </a>
+          <a href="">
+            Consulter ma moyenne
+          </a>
+          <a href="">
+            Consulter ma moyenne
+          </a>
+        </div>
+      </div>
+      </div>
     </section>
     <section id="stress">
 
@@ -89,6 +124,8 @@
 
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="../src/data-posture.js"></script>
 </body>
 
 </html>
